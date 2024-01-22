@@ -93,11 +93,11 @@ export const ContentSobre = styled.div`
     }
 
     @media ${breakPoints.mw}{
-        background-color: #ff5100;
+        /* background-color: #ff5100; */
         min-width: ${size.mw};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     
     }
 
@@ -106,7 +106,7 @@ export const ContentSobre = styled.div`
         min-width: ${size.mdw};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     
     }
     @media ${breakPoints.uw}{
@@ -114,7 +114,7 @@ export const ContentSobre = styled.div`
         min-width: ${size.uw};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     
     }
 
