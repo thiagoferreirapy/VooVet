@@ -1,0 +1,32 @@
+.content_icons{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.content_icons:hover > *{
+    color: rgb(47, 94, 94);
+
+}
+
+.content_icons p{
+    width: auto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 16px;
+
+}
+
+.icon{
+    font-size: 33px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}

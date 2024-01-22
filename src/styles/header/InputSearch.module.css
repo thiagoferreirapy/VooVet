@@ -1,0 +1,31 @@
+.label_input_search{
+    width: 350px;
+    height: 40px;
+    border: 2px solid #8e8e8e;
+    border-radius: 20px;
+    background-color: #ffff;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+
+.label_input_search input{
+    border: none;
+    width: 90%;
+    height: 100%;
+    font-weight: 600;
+    outline: none;
+
+}
+
+.label_input_search input::placeholder{
+    color: #8E8E8E;
+}
+
+.label_input_search .icon{
+    font-size: 25px;
+    color: #8E8E8E;
+}

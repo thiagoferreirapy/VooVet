@@ -1,0 +1,142 @@
+
+
+
+.content_slider{
+    width: 100%;
+    height: 400px;
+    position: relative;
+   
+}
+
+.img_slider{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: grab;
+
+}
+.img_slider:active{
+   
+    cursor: grabbing;
+
+}
+
+.img_slider_shopping{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: grab;
+    filter: blur(5px);
+}
+
+.img_slider_shopping:active{
+   
+    cursor: grabbing;
+    
+}
+
+
+.content_text_slider{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+    transform: translate(0,-50%);
+    
+}
+.content_text_slider h2{
+    font-family: "Ranga";
+    font-size: 70px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+.content_text_slider h3{
+    font-family: "Ranga";
+    font-size: 70px;
+    font-weight: 700;
+    color: #118DF0;
+    line-height: 60px;
+    
+}
+.content_text_slider p{
+    font-family: "Ranga";
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 20px;
+    line-height: 25px;
+    
+}
+.content_text_slider p span{
+    font-family: "Ranga";
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E2F56;
+    
+    
+}
+
+
+.button{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+
+    width: 250px;
+    height: 40px;
+    background-color: #118DF0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.content_shopping{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content_text_shopping{
+    width: 450px;
+    display: flex;
+
+ 
+    flex-direction: column;
+
+}
+
+.content_text_shopping h2{
+    font-family: "Ranga";
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 60px;
+    
+}
+.content_text_shopping h3{
+    font-family: "Ranga";
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 60px;
+    
+}
+.content_text_shopping p{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    margin-top: 20px;
+    line-height: 25px;
+    text-shadow: 2px 2px  #0E2F56;
+}
+
