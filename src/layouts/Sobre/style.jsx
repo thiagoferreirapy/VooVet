@@ -35,9 +35,10 @@ export const ContentSobre = styled.div`
         justify-content: center;
         text-align: center;
     }
+
     @media ${breakPoints.mqg}{
         background-color: #fff200;
-        min-width: ${size.md};
+        min-width: ${size.mqg};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: column;
         justify-content: center;
@@ -129,21 +130,26 @@ export const ContentText = styled.div`
 
     /* celular */
     @media ${breakPoints.mm}{
-        width: ${size.mm};
+        width: ${getTamanhoDaTela().largura}px;
         text-align: center;
         padding: 0 15px;
         margin-right: 0;
+        background-color: #55ff06;
     }
-    @media ${breakPoints.md}{
+    /* @media ${breakPoints.md}{
         width: ${size.md};
+        width: ${getTamanhoDaTela().largura}px;
         text-align: center;
-        padding: 0 10px;
+        padding: 0 0px;
         margin-right: 0;
+        background-color: #55ff06;
     }
+
     @media ${breakPoints.mqg}{
-        width: ${size.mqg};
+        min-width: ${size.mqg};
+        width: ${getTamanhoDaTela().largura}px;
         text-align: center;
-        padding: 0 7px;
+        padding: 0 20px;
         margin-right: 0;
         background-color: green;
     }
@@ -152,7 +158,7 @@ export const ContentText = styled.div`
         text-align: center;
         padding: 0 10px;
         margin-right: 0;
-    }
+    } */
 
     /* tablet */
     @media ${breakPoints.tbm}{
@@ -214,12 +220,12 @@ export const ImgSobre = styled.img`
 
     /* celular */
     @media ${breakPoints.mm}{
-        width: ${size.mm};
+        width: ${getTamanhoDaTela().largura}px;
         padding: 0 15px;
         margin-right: 0;
     }
 
-    @media ${breakPoints.md}{
+    /* @media ${breakPoints.md}{
         width: ${size.md};
         padding: 0 15px;
         margin-right: 0;
@@ -229,7 +235,7 @@ export const ImgSobre = styled.img`
         width: ${size.mg};
         padding: 0 15px;
         margin-right: 0;
-    }
+    } */
 
 
     /* tablet */

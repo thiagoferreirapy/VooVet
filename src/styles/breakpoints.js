@@ -18,7 +18,7 @@ export const size = {
 export const breakPoints = {
     mm: `(min-width: ${size.mm})`,
     md: `(min-width: ${size.md})`,
-    mqg: `(min-width: ${size.md})`,
+    mqg: `(min-width: ${size.mqg})`,
     mg: `(min-width: ${size.mg})`,
 
     tbm: `(min-width: ${size.tbm})`,
