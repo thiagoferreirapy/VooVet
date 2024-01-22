@@ -141,7 +141,7 @@ export const ContentText = styled.div`
         margin-right: 0;
     }
     @media ${breakPoints.mqg}{
-        width: ${size.md};
+        width: ${size.mqg};
         text-align: center;
         padding: 0 7px;
         margin-right: 0;
