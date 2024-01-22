@@ -2,7 +2,7 @@ export const size = {
     mm: '320px',
     md: '360px',
     mqg: '400px',
-    mg: '600px',
+    mg: '560px',
 
     tbm: '750px',
     tbmd: '800px',

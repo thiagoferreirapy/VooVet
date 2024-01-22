@@ -132,7 +132,7 @@ export const ContentText = styled.div`
     @media ${breakPoints.mm}{
         width: ${getTamanhoDaTela().largura}px;
         text-align: center;
-        padding: 0 15px;
+        padding: 0 20px;
         margin-right: 0;
         background-color: #55ff06;
     }
@@ -153,12 +153,16 @@ export const ContentText = styled.div`
         margin-right: 0;
         background-color: green;
     }
+
+    */
+
     @media ${breakPoints.mg}{
         width: ${size.mg};
         text-align: center;
         padding: 0 10px;
         margin-right: 0;
-    } */
+        background-color: red;
+    } 
 
     /* tablet */
     @media ${breakPoints.tbm}{
@@ -221,7 +225,7 @@ export const ImgSobre = styled.img`
     /* celular */
     @media ${breakPoints.mm}{
         width: ${getTamanhoDaTela().largura}px;
-        padding: 0 15px;
+        padding: 0 20px;
         margin-right: 0;
     }
 
