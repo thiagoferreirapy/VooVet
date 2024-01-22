@@ -1,6 +1,7 @@
 export const size = {
     mm: '320px',
-    md: '380px',
+    md: '360px',
+    mqg: '400px',
     mg: '600px',
 
     tbm: '750px',
@@ -17,6 +18,7 @@ export const size = {
 export const breakPoints = {
     mm: `(min-width: ${size.mm})`,
     md: `(min-width: ${size.md})`,
+    mqg: `(min-width: ${size.md})`,
     mg: `(min-width: ${size.mg})`,
 
     tbm: `(min-width: ${size.tbm})`,

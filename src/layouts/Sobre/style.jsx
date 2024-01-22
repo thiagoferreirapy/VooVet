@@ -35,6 +35,14 @@ export const ContentSobre = styled.div`
         justify-content: center;
         text-align: center;
     }
+    @media ${breakPoints.mqg}{
+        background-color: #fff200;
+        min-width: ${size.md};
+        width: ${getTamanhoDaTela().largura}px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
 
     @media ${breakPoints.mg}{
         background-color: #ff00f7;
@@ -130,6 +138,12 @@ export const ContentText = styled.div`
         width: ${size.md};
         text-align: center;
         padding: 0 10px;
+        margin-right: 0;
+    }
+    @media ${breakPoints.mqg}{
+        width: ${size.md};
+        text-align: center;
+        padding: 0 7px;
         margin-right: 0;
     }
     @media ${breakPoints.mg}{
