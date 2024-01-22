@@ -145,7 +145,7 @@ export const ContentText = styled.div`
         text-align: center;
         padding: 0 7px;
         margin-right: 0;
-        color: green;
+        background-color: green;
     }
     @media ${breakPoints.mg}{
         width: ${size.mg};
