@@ -18,7 +18,6 @@ export const ContentSobre = styled.div`
 
     /* celulares */
     @media ${breakPoints.mm}{
-        background-color: red;
         min-width: ${size.mm};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: column;
@@ -28,7 +27,6 @@ export const ContentSobre = styled.div`
     
 
     @media ${breakPoints.md}{
-        background-color: blue;
         min-width: ${size.md};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: column;
@@ -37,7 +35,6 @@ export const ContentSobre = styled.div`
     }
 
     @media ${breakPoints.mg}{
-        background-color: #ff00f7;
         min-width: ${size.mg};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: column;
@@ -47,7 +44,6 @@ export const ContentSobre = styled.div`
 
     /* tablets */
     @media ${breakPoints.tbm}{
-        background-color: #00ff95;
         min-width: ${size.tbm};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: column;
@@ -56,7 +52,6 @@ export const ContentSobre = styled.div`
     }
 
     @media ${breakPoints.tbmd}{
-        background-color: #26ff00;
         min-width: ${size.tbm};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: column;
@@ -65,7 +60,6 @@ export const ContentSobre = styled.div`
     }
 
     @media ${breakPoints.tbg}{
-        background-color: #ffff00;
         min-width: ${size.tbg};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: column;
@@ -75,7 +69,6 @@ export const ContentSobre = styled.div`
 
     /* notebooks */
     @media ${breakPoints.bg}{
-        background-color: #ffa200;
         min-width: ${size.tbg};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: row;
@@ -93,7 +86,6 @@ export const ContentSobre = styled.div`
     }
 
     @media ${breakPoints.mdw}{
-        background-color: #ff2929;
         min-width: ${size.mdw};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: row;
@@ -101,7 +93,6 @@ export const ContentSobre = styled.div`
     
     }
     @media ${breakPoints.uw}{
-        background-color: #ff0000;
         min-width: ${size.uw};
         width: ${getTamanhoDaTela().largura}px;
         flex-direction: row;
@@ -126,6 +117,7 @@ export const ContentText = styled.div`
         padding: 0 15px;
         margin-right: 0;
     }
+
     @media ${breakPoints.md}{
         width: ${size.md};
         text-align: center;
@@ -143,7 +135,7 @@ export const ContentText = styled.div`
     @media ${breakPoints.tbm}{
         width: ${size.tbm};
         text-align: left;
-        padding: 0 20px;
+        padding: 0 15px;
         margin-right: 0;
     }
 
@@ -220,7 +212,7 @@ export const ImgSobre = styled.img`
     /* tablet */
     @media ${breakPoints.tbm}{
         width: ${size.tbm};
-        /* padding: 0 15px; */
+        padding: 0 15px;
         margin-right: 0;
     }
 
