@@ -1,6 +1,6 @@
 export const size = {
     mm: '320px',
-    md: '400px',
+    md: '380px',
     mg: '600px',
 
     tbm: '750px',
